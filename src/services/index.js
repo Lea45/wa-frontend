@@ -4,7 +4,7 @@ import $router from '@/router';
 //axios.defaults.withCredentials = true
 
 let Service = axios.create({ 
-    baseURL: 'http://localhost:5000/',  
+    baseURL: 'https://wa-projekt.onrender.com',  
     timeout: 3000,
     headers: {
         Accept: "application/json",
